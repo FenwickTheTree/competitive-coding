@@ -1,0 +1,41 @@
+# macOS system files
+.DS_Store
+
+# C++ build artifacts
+*.out
+*.o
+*.obj
+a.out
+*.exe
+
+# Debug files (macOS)
+*.dSYM/
+*.dSYM
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build folders
+build/
+bin/
+dist/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Backup / swap / temp files
+*~
+*.swp
+*.tmp
+*.log
+
+# Competitive programming test files (optional)
+input.txt
+output.txt
+
