@@ -1,5 +1,10 @@
 #include <iostream>
-
+/**
+ * this function lets the termination condition be executed for all cases, and exploits the final values of low and high to determine the right or left boundary
+ * in right boundary case, the high points to the last occurrence of the key when low crosses high
+ * in left boundary case, the low points to the first occurrence of the key when low crosses high
+ * by changing the comparison operators in the if-else conditions, we can determine which boundary to search for
+ */
 int binary_search_right_boundary(int s[], double key, int low, int high) {
     
 
