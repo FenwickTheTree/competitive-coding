@@ -29,5 +29,9 @@ int main() {
         std::cout << "Element not found in the array." << std::endl;
     }
 
+
+    int middle = (3+4)/2;
+    std::cout << middle << std::endl;
+
     return 0;
 }
