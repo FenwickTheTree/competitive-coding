@@ -7,9 +7,13 @@ using namespace std;
 
 int main(){
     array a {"a"}; // std::array
-    vector<int> b(5); // dynamic array
+    vector<int> b = {4,2,3,4,5,6}; // dynamic array
     int c[5]{};// c-style array
-    for(int i =0;i<size(c);i++){
-        cout << c[i] << endl;
+    for(vector<int>::iterator it = b.begin(); it != b.end(); it ++){
+        cout << *it << endl;
+    }
+
+    for (auto e : b){
+        cout << e;
     }
 }
